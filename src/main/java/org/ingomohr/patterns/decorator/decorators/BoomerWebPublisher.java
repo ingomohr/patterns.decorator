@@ -24,7 +24,7 @@ public class BoomerWebPublisher extends InformationPublisherDecorator {
         StringBuilder builder = new StringBuilder();
         builder.append(getDecoratedPublisher().publish(info));
 
-        builder.append("\n     - boomer boomer boomer");
+        builder.append("\n     - boomer boomer boomer: " + info);
         builder.append("\n" + toPublishMessage());
 
         return builder.toString();

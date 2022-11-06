@@ -24,7 +24,7 @@ public class TwitterPublisher extends InformationPublisherDecorator {
         StringBuilder builder = new StringBuilder();
         builder.append(getDecoratedPublisher().publish(info));
 
-        builder.append("\n     - tweet tweet tweet");
+        builder.append("\n     - tweet tweet tweet: " + info);
         builder.append("\n" + toPublishMessage());
 
         return builder.toString();

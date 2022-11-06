@@ -24,7 +24,7 @@ public class InstaPublisher extends InformationPublisherDecorator {
         StringBuilder builder = new StringBuilder();
         builder.append(getDecoratedPublisher().publish(info));
 
-        builder.append("\n     - insta insta insta");
+        builder.append("\n     - insta insta insta: " + info);
         builder.append("\n" + toPublishMessage());
 
         return builder.toString();
