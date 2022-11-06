@@ -9,11 +9,8 @@ import org.ingomohr.patterns.decorator.decorators.BoomerWebPublisher;
 import org.ingomohr.patterns.decorator.decorators.InstaPublisher;
 import org.ingomohr.patterns.decorator.decorators.TwitterPublisher;
 
-/**
- * InformationPublisherAppResource
- */
 @Path("/hello")
-public class InformationPublisherAppResource {
+public class HelloResource {
 
     public static void main(String[] args) {
         InformationPublisher publisher = new BoomerWebPublisher(
