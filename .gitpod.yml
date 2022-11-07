@@ -1,0 +1,6 @@
+image:
+  file: .gitpod.Dockerfile
+vscode:
+  extensions:
+    - TabNine.tabnine-vscode
+    - vscjava.vscode-java-pack
