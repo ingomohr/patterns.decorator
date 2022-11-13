@@ -20,7 +20,6 @@ Open the terminal on the root project and call
 
 ```
 javac -d ./bin/ src/*.java
-
 ```
 
 ### How to Run
