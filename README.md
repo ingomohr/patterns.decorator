@@ -26,8 +26,7 @@ javac -d ./bin/ src/*.java
 After you've built the project, call
 
 ```
-cd bin
-java Main
+java -cp ./bin/ Main
 ```
 
 ### Output
