@@ -1,4 +1,4 @@
-package org.ingomohr.patterns.decorator;
+package example;
 
 import java.util.Objects;
 

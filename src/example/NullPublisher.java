@@ -1,4 +1,4 @@
-package org.ingomohr.patterns.decorator;
+package example;
 
 public class NullPublisher implements InformationPublisher {
 

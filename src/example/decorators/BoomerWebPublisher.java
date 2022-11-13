@@ -1,7 +1,8 @@
-package org.ingomohr.patterns.decorator.decorators;
+package example.decorators;
 
-import org.ingomohr.patterns.decorator.InformationPublisher;
-import org.ingomohr.patterns.decorator.InformationPublisherDecorator;
+import example.InformationPublisher;
+import example.InformationPublisherDecorator;
+
 
 public class BoomerWebPublisher extends InformationPublisherDecorator {
 
