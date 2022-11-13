@@ -1,4 +1,4 @@
-# org.ingomohr.patterns.decorator Project
+# Decorator Pattern Example
 
 This is an example of the [Decorator Pattern](https://en.wikipedia.org/wiki/Decorator_pattern)
 
